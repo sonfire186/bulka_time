@@ -1,4 +1,4 @@
-var target_date = new Date(2020, 4, 5, 20, 10, 0, 0).getTime();
+var target_date = new Date().getTime();
 
 const circleType = new CircleType(document.getElementById('bulka_text'));
 circleType.radius(500).dir(1);
