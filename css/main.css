@@ -6,13 +6,12 @@ body {
 }
 
 #tiles_text {
-    text-align: center;
-    margin: auto;
     position: absolute;
-    top: 25%;
-    bottom: 0;
-    left: 0;
-    right: 0
+    top: 50%;
+    left: 50%;
+    -ms-transform: translateX(-50%) translateY(-190%);
+    -webkit-transform: translate(-50%,-190%);
+    transform: translate(-50%,-190%);
 }
 
 #countdown {
