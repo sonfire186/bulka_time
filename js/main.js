@@ -13,7 +13,8 @@ setInterval(function () {
 }, 1000);
 
 function getCountdown() {
-
+    target_date = new Date().getTime();
+    
     var current_date = new Date().getTime();
     var seconds_left = (current_date - target_date) / 1000;
 
